@@ -1,3 +1,4 @@
+## Ref: https://github.com/github/gitignore
 /target/
 /.classpath
 /.project
