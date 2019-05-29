@@ -14,6 +14,6 @@ WORKDIR /app
 ## copy jarfile from proxy-service-build stage
 COPY --from=proxy-service-build /app/target/*.jar .
 
-EXPOSE 8061
+EXPOSE 8060
 ENTRYPOINT ["sh", "-c"]
 CMD ["exec java -jar *.jar"]
